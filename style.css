@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container,body{
+    height: 100vh;
+    width: 100%;
+    background-color: #080808;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    background-color: #1B1B1B;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    padding: 25px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #9C9C9C;
+    font-size: 13px;
+    font-family: "IBM Plex Mono", monospace;
+    cursor: pointer;
+
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #9C9C9C;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 11%;
+}
+.fa-brands{
+    color: #9C9C9C;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    border-bottom: 1px solid #9C9C9C;
+}
+.main{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 13%;
+}
+.main .left h1{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    text-align: left;
+}
+.left p{
+    color: #9C9C9C;
+    font-family: "IBM Plex Mono", monospace;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 80%;
+    text-align: left;
+    line-height: 1.5;
+}
+.btn{
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    background-color: #3f8e00;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-right: 60px;
+    outline: 0.5px solid #62BA1B;
+}
+.btn:hover{
+    background-color: #9C9C9C;
+    color: black;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.profile{
+    height: 370px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin:4.5rem 0 0 4rem;
+}
+.footer p{
+    color: white;
+    margin-right: 60%;
+}
+.companies{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 20px 0;
+    margin-left: 40px;
+}
+.company-logo{
+    height: 70px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin: 15px;
+}
+::selection{
+    color: black;
+    background-color: #3f8e00;
+}
